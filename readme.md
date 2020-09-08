@@ -39,12 +39,15 @@ Do not change the DB name as the app is tied to it.
 To view the Data store via mongo shell - run the following in bash
 
 `mongo`
+
 Runs mongo shell
 
 `use JonesonDB`
+
 Selects the DB the app reads and writes to
 
 `db.userInfo.find()`
+
 Shows all the stored values of the users
 
 
